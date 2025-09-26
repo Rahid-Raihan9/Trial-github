@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="msgcontainer hide">
+      <p class="msg">Congratulations the winner is</p>
+      <button class="newbtn">New Game</button>
+    </div>
+
+    <h1>TIC TAC TOE</h1>
+
+    <div class="scoreboard">
+      <p>O: <span id="oScore">0</span> | X (AI): <span id="xScore">0</span></p>
+    </div>
+
+    <div class="container">
+      <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+    </div>
+
+    <button id="rst">Reset</button>
+
+    <audio
+      id="moveSound"
+      src="https://www.soundjay.com/button/sounds/button-16.mp3"
+    ></audio>
+    <audio
+      id="winSound"
+      src="https://www.soundjay.com/button/sounds/button-3.mp3"
+    ></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
