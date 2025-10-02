@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-Hello This rihan
-I am changing the file
-=======
-reademe.md- 
-chaged something it is feature one
->>>>>>> feature/add-something
+
+reademe.md-Hello trial for github, learning pull request 
+
